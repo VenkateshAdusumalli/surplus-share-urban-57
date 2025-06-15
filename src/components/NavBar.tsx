@@ -1,12 +1,12 @@
 
 import { Button } from "@/components/ui/button";
-import { Food } from "lucide-react";
+import { Utensils } from "lucide-react";
 
 const NavBar = () => (
   <header className="w-full bg-white border-b border-border shadow-sm sticky top-0 z-20">
     <nav className="container mx-auto px-8 flex items-center justify-between h-20">
       <div className="flex items-center gap-2">
-        <Food className="w-7 h-7 text-green-600" />
+        <Utensils className="w-7 h-7 text-green-600" />
         <span className="font-extrabold text-xl tracking-tight text-primary">FoodShare</span>
       </div>
       <div className="flex items-center gap-8">
